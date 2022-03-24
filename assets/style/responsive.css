@@ -11,6 +11,17 @@
         padding-right: 200px;
     }
 
+    /* HOME SECTION */
+    .home .home-img img{
+        height: 500px;
+    }
+    .home-section-content {
+        position: absolute;
+        top: 20%;
+        width: 50%;
+    }
+
+
     /* ABOUT SECTION */
     .about-left {
         width: 100%;
@@ -39,6 +50,16 @@
     .outer-content {
         padding-left: 120px;
         padding-right: 120px;
+    }
+
+    /* HOME SECTION */
+    .home .home-img img{
+        height: 500px;
+    }
+    .home-section-content {
+        position: absolute;
+        top: 30%;
+        width: 50%;
     }
 
     /* ABOUT SECTION */
@@ -86,6 +107,17 @@
     .d-flex {
         display: block;
     } 
+
+    /* HOME SECTION */
+    .home .home-img img{
+        height: 500px;
+    }
+    .home-section-content {
+        position: absolute;
+        top: 13%;
+        width: 50%;
+    }
+    
 
     /* ABOUT SECTION */
     .about-left {
@@ -150,6 +182,25 @@
         display: block;
     } 
 
+    /* HOME SECTION */
+    .home .home-img img{
+        height: 500px;
+    }
+    .home-section-content {
+        position: absolute;
+        top: 17%;
+        width: 60%;
+    }
+    .home-section-content h1 {
+        font-size: 16px;
+    }
+    .home-section-content p {
+        font-size: 14px;
+    }
+    .btn-container {
+        margin-bottom: 40px;
+    }
+
     /* ABOUT SECTION */
     .about-left {
         width: 100%;
@@ -161,6 +212,11 @@
         width: 100%;
     }
     .social-icons {
+        margin-bottom: 30px;
+    }
+
+    /* PORTFOLIO */
+    .portfolio-item {
         margin-bottom: 30px;
     }
 
@@ -230,6 +286,22 @@
     .d-flex {
         display: block;
     } 
+
+    /* HOME SECTION */
+    .home .home-img img{
+        height: 500px;
+    }
+    .home-section-content {
+        position: absolute;
+        top: 20%;
+        width: 80%;
+    }
+    .home-section-content h1 {
+        font-size: 16px;
+    }
+    .home-section-content p {
+        font-size: 14px;
+    }
     
     /* ABOUT SECTION */
     .about-flex {
@@ -249,11 +321,13 @@
     }
 
     /* PORTFOLIO */
+    .portfolio-item img {
+        width: 300px;
+    }
     .portfolio-item {
-        width: 0px;
+        width: 250px;
         margin-bottom: 30px;
     }
-    
 
     /* SERVICE */
     .service .d-flex {

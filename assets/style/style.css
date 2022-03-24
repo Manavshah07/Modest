@@ -39,9 +39,9 @@ body{
 /* **********
     HOME
 ************* */
-/* .home {
-    margin: 20px 0;
-} */
+.home .d-flex {
+    display: flex;
+}
 .home-section-content {
     position: absolute;
     top: 25%;
@@ -134,6 +134,84 @@ body{
 /* **********
     TEAM
 ************* */
+.team-section-details h4,
+.team-section-details p {
+    text-transform: capitalize;
+    margin: 7px 0;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.team-section-details p {
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.team-section-details {
+    background-color: #eee;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.team-section-details:hover {
+    background-color: #3a454d;
+    color: #FFF;
+}
+.team-section-details:hover .overlay-solo{
+    transition: all .3s ease-in-out;
+    display: block;
+}
+
+.team-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-solo {
+    width: 240px;
+    position: relative;
+}
+
+.social-icon i {
+    font-size: 18px;
+    background-color: #3a454d;
+    padding: 7px;
+    color: #FFF;
+    margin: 1px;
+    display: inline-block;
+}
+
+.social-icon .fa-facebook {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.social-icon .fa-linkedin {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.overlay-solo .d-flex {
+    /* width: 50%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
+
+.overlay-solo {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 87px;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+    display: none;
+}
 
 
 /* **********
@@ -146,13 +224,26 @@ body{
     justify-content: space-between;
 }
 .portfolio-item {
-    /* width: 100px; */
+    width: 260px;
     margin-bottom: 30px;
+    position: relative;
 }
-.portfolio-item img {
-    width: 250px;
+.portfolio-section-details h5{
+    background-color: #3a454d;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0px;
+    color: #FFF;
+    /* font-size: 16px; */
+    position: absolute;
+    bottom: 0;
 }
-
+.portfolio-section-details .icon i {
+    color: #FFF;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
 
 /* **********
     SERVICE
